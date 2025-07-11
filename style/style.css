@@ -101,9 +101,13 @@ body {
 }
 /* Productive Users Section */
 .productive-users {
-  background-color: #2E2E2E;
+  background-color: rgba(78, 71, 255, 0.1);
   text-align: center;
-  padding: 50px 20px;
+  padding: 80px 50px;
+   gap: 10px; 
+  width: 1140px;
+  height: 306px; 
+
 }
 
 .stats {
@@ -116,11 +120,18 @@ body {
   margin: 0 15px;
 }
 
-.stats p {
-  font-size: 24px;
-}
+  /* .stats p {
+  font-size: 24px; 
+}  */
 .p-primary{
   color: rgba(78, 71, 255, 1);
+  font-size:xx-large;
+}
+.productive-users h2{
+  color: black;
+}
+.second-p{
+  color: rgba(0, 0, 0, 0.5);
 }
 
 
