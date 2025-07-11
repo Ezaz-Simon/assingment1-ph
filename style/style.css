@@ -67,6 +67,39 @@ body {
   background-color: #3a4cde;
 }
 
+/* Action Section */
+.action {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+.action-left h2  {
+  font-size: 28px; 
+  color: black;
+}
+.p1{
+    color: rgba(37, 36, 50, 0.5);
+}
+.launch-button {
+  background-color: #5E6DFF;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.launch-button:hover {
+  background-color: #3a4cde;
+}
+
+.action .action-right img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
 
 
 
