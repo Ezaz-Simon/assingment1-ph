@@ -25,8 +25,9 @@ body {
 
 .hero-section .logo {
   color: rgb(65, 65, 252);
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 34px;
+  
+  
 }
 
 .signup-button {
@@ -125,7 +126,9 @@ body {
 }  */
 .p-primary{
   color: rgba(78, 71, 255, 1);
-  font-size:xx-large;
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-size: 50px;
 }
 .productive-users h2{
   color: black;
@@ -139,13 +142,15 @@ body {
   display: flex;
   padding: 50px 20px;
   justify-content: space-between;
-  background-color: #D6DDED;
+  background-color:#D6DDED;
 }
 
 .contact-left h1 {
-  font-size:xx-large;
+  font: size 97px;;
+  font-weight: 700;
+  margin margin-top: 110px;
   color: black;
- width: 528px;
+ /* width: 528px; */
  
 }
 
@@ -179,31 +184,27 @@ body {
 footer {
   text-align: center;
   padding: 40px 20px;
-  background-color: #333;
+  background-color: white;
 }
 
 footer .footer-logo {
-  font-size: 24px;
+  font-size: 70px;
   font-weight: bold;
+  color: rgba(78, 71, 255, 1);
 }
 
 footer .footer-links a {
   margin: 0 10px;
-  color: #fff;
+  
   text-decoration: none;
+  color: #8987A1;
 }
 
 footer .footer-links a:hover {
   text-decoration: underline;
 }
-
-/* Button Hover Animations */
-button {
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  transform: scale(1.05);
+.footer-p{
+  color: #8987A1;
 }
 
 
